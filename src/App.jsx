@@ -1,15 +1,21 @@
+import { useState } from 'react'
 import './App.css'
 import { SoundTrigger, TRACKS } from './components/SoundTrigger/SoundTrigger'
 
 function App() {
 
-  const arrTrigger = TRACKS.map(({ id, clipName, src }) => (<SoundTrigger key={id} id={id} clip={clipName} source={src} />))
+  const [track, setTrack] = useState('')
+  const arrTrigger = TRACKS.map(({ key, clipName, src }) => (<SoundTrigger key={key} id={key} clip={clipName} source={src} setTrack={setTrack} />))
 
   return (
-    <>
-      { arrTrigger }
-      <div id="display"></div>
-    </>
+    <div id='drum-machine'>
+      <div id="display">
+        { track }
+      </div>
+      <div className="pads">
+        { arrTrigger }
+      </div>
+    </div>
   )
 
 }
