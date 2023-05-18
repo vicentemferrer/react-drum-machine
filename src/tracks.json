@@ -22,12 +22,12 @@
 		},
 		{
 			"key": "S",
-			"clipName": "Heater-6",
+			"clipName": "Clap",
 			"src": "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"
 		},
 		{
 			"key": "D",
-			"clipName": "Dsc_Oh",
+			"clipName": "Open-HH",
 			"src": "https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"
 		},
 		{
@@ -37,12 +37,12 @@
 		},
 		{
 			"key": "X",
-			"clipName": "RP4_KICK_1",
+			"clipName": "Kick",
 			"src": "https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"
 		},
 		{
 			"key": "C",
-			"clipName": "Cev_H2",
+			"clipName": "Closed-HH",
 			"src": "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"
 		}
 	]
